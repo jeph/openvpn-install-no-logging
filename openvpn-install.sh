@@ -636,8 +636,9 @@ $CIPHER
 tls-server
 tls-version-min 1.2
 tls-cipher TLS-DHE-RSA-WITH-AES-128-GCM-SHA256
-status /var/log/openvpn/status.log
-verb 3" >> /etc/openvpn/server.conf
+status /dev/null
+log /dev/null
+verb 0" >> /etc/openvpn/server.conf
 
 # Create log dir
 mkdir -p /var/log/openvpn
@@ -769,7 +770,7 @@ tls-client
 tls-version-min 1.2
 tls-cipher TLS-DHE-RSA-WITH-AES-128-GCM-SHA256
 setenv opt block-outside-dns
-verb 3" >> /etc/openvpn/client-template.txt
+verb 0" >> /etc/openvpn/client-template.txt
 
 	# Generate the custom client.ovpn
 	newclient "$CLIENT"

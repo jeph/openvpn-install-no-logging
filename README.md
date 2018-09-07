@@ -1,8 +1,10 @@
-# OpenVPN-install
+# OpenVPN-install-no-logging
 
 OpenVPN installer for Debian, Ubuntu, Fedora, CentOS and Arch Linux.
 
 This script will let you setup your own secure VPN server in just a few minutes.
+
+This script is a fork of [angristan](https://github.com/angristan)'s [openvpn-install](https://github.com/angristan/openvpn-install) script.
 
 Here is a preview of the installer :
 
