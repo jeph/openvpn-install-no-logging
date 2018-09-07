@@ -20,7 +20,7 @@ You can get a cheap VPS to run this script for $2.50/month worldwide at [Vultr](
 First, get the script and make it executable :
 
 ```bash
-wget https://raw.githubusercontent.com/Angristan/OpenVPN-install/master/openvpn-install.sh
+wget https://raw.githubusercontent.com/jeph/openvpn-install-no-logging/master/openvpn-install.sh
 chmod +x openvpn-install.sh
 ```
 
